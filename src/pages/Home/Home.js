@@ -90,9 +90,14 @@ function Home(props) {
             </Link>
           </div>
           <div>
-            <Link href="https://www.figma.com/file/DeA9Gg1oFwJoWHsLUGZLei/Figure-HMS-Tools?type=whiteboard&node-id=0%3A1&t=RTTViKXJQMA14Fwr-1" icon color>
+            <Link
+              href="https://www.figma.com/file/DeA9Gg1oFwJoWHsLUGZLei/Figure-HMS-Tools?type=whiteboard&node-id=0%3A1&t=RTTViKXJQMA14Fwr-1"
+              icon
+              color
+            >
               Figma Design
             </Link>
+          </div>
         </div>
       </Grid>
       <Grid xs={12} height="800px">
