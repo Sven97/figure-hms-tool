@@ -58,16 +58,16 @@ function Control(props) {
           <div>
             <Text h3> Speech-to-Text and Text-to-Speech Module</Text>
 
-            <Grid.Container gap={2}>
-              <Grid xs={12}>
-                <Code block name="🟢 STT Service" my={0}>
+            <Grid.Container gap={0}>
+              <Grid xs={12} width="100%">
+                <Code block name="🟢 STT Service" my={0} width="100%">
                   {">"} listening to next prompt ...
                   <br />
                   {">"} recognized: "Give me the apple"
                 </Code>
               </Grid>
-              <Grid xs={12}>
-                <Code block name="🟡 TTS Service" my={0}>
+              <Grid xs={12} width="100%">
+                <Code block name="🟡 TTS Service" my={0} width="100%">
                   {">"} received text: "The apple is on the table"
                   <br />
                   {">"} speaking: "The apple is on the table"
@@ -78,7 +78,7 @@ function Control(props) {
 
               <div>
                 <Text h3> Reasoning Module</Text>
-                <Code block name="🔵 Reasoning Service" my={0}>
+                <Code block name="🔵 Reasoning Service" my={0} width="100%">
                   {">"} received command: "Give me the apple"
                   <br />
                   {">"} reasoning: "The apple is on the table"
@@ -94,7 +94,7 @@ function Control(props) {
                     <Image src="https://docs.microsoft.com/en-us/learn/wwl-data-ai/detect-objects-images-custom-vision/media/produce-objects.png" />
                   </Grid>
                   <Grid xs={12}>
-                    <Code block name="🔵 CV Service" my={0}>
+                    <Code block name="🔵 CV Service" my={0} width="100%">
                       {">"} object detected: "apple 98.21%"
                       <br />
                       {">"} depth estimation and spacial coordinate: (x, y, z)

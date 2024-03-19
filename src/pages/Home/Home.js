@@ -31,20 +31,6 @@ function Home(props) {
             on the right 👉🏻
           </Text>
 
-          <Text h3>Job Description</Text>
-          <Text p>
-            The full job description for the Full-Stack Engineer at Figure can
-            be found{" "}
-            <Link
-              href="https://boards.greenhouse.io/figureai/jobs/4313401006"
-              icon
-              color
-            >
-              here
-            </Link>
-            .
-          </Text>
-
           <Text h3>Tech Stack and Approach</Text>
           <Text p>
             • <Text b>Front-End Development</Text>: This project is built with
@@ -73,6 +59,20 @@ function Home(props) {
             Flask server deployment.
           </Text>
 
+          <Text h3>Job Description</Text>
+          <Text p>
+            The full job description for the Full-Stack Engineer at Figure can
+            be found{" "}
+            <Link
+              href="https://boards.greenhouse.io/figureai/jobs/4313401006"
+              icon
+              color
+            >
+              here
+            </Link>
+            .
+          </Text>
+
           <Text h3>Links</Text>
           <div>
             <Link href="https://github.com/Sven97/hms-tools-app" icon color>
@@ -80,8 +80,13 @@ function Home(props) {
             </Link>
           </div>
           <div>
-            <Link href="#" icon color>
+            <Link href="https://github.com/Sven97/figure-hms-tool" icon color>
               GitHub Repository for frontend service
+            </Link>
+          </div>
+          <div>
+            <Link href="https://figure-hms-tool.vercel.app/" icon color>
+              Url for the frontend service
             </Link>
           </div>
         </div>
